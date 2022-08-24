@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Say from "./components/say";
+// import Event from "./components/event";
+// import Interation from "./components/iteration";
+// import Counter from "./components/counter";
+// import Info from "./components/info";
+import Counter2 from "./components/counter2";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Counter2 />
+    </>
   );
 }
 
